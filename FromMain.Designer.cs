@@ -70,9 +70,10 @@
             // 
             // labelInAboutUsers
             // 
-            labelInAboutUsers.Location = new Point(299, 319);
+            labelInAboutUsers.Dock = DockStyle.Fill;
+            labelInAboutUsers.Location = new Point(10, 10);
             labelInAboutUsers.Name = "labelInAboutUsers";
-            labelInAboutUsers.Size = new Size(100, 23);
+            labelInAboutUsers.Size = new Size(892, 638);
             labelInAboutUsers.TabIndex = 0;
             // 
             // FromMain
